@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest html + css + JS Intermediário</title>
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <div class="texto">
+                <h1>FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!</h1>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.</p>
+            </div>
+            <div class="caixa-form">
+                <form id="form" class="formulario" method="post">
+                    <label for="nome"></label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome ompleto *" required>
+                    <span class="obrigatorio oculto" aria-live="polite">campo obrigatório</span>
+
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email *" required>
+                <span class="obrigatorio oculto" aria-live="polite">campo obrigatório</span>
+
+                <label for="telefone"></label>
+                <input type="tel" id="telefone" name="telefone" placeholder="Telefone *" required>
+                <span class="obrigatorio oculto" aria-live="polite">campo obrigatório</span>
+
+                <label for="mensagem"></label>
+                <textarea id="mensagem" name="mensagem" rows="7" placeholder="Mensagem *" required></textarea>
+                <span class="obrigatorio oculto" aria-live="polite">campo obrigatório</span>
+
+                <p>*campos obrigatórios</p>
+
+                <button type="submit" id="btn-enviar" class="btn">Enviar</button>
+            </form>
+            </div>
+        </section>
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>
