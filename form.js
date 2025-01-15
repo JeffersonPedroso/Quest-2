@@ -7,13 +7,13 @@ btnEnviar.addEventListener("click", (event) => {
     const inputs = formulario.querySelectorAll("input, textarea");
     inputs.forEach((campo) => {
         if (campo.value.trim() === "") {
-            campo.nextElementSibling?.classList.remove("oculto");
             campo.classList.add("campo-obrigatorio");
-            
+            campo.classList.remove("campo-preenchido");
+            campo.nextElementSibling?.classList.remove("oculto");
         } else {
+            campo.classList.add("campo-preenchido");
             campo.classList.remove("campo-obrigatorio");
             campo.nextElementSibling?.classList.add("oculto");
-            campo.classList.add("campo-preenchido");
         }
     });
 });
