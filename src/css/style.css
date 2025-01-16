@@ -60,7 +60,7 @@ main {
     color: #f52e2e;
     position: absolute;
     display: block;
-    margin-top: -18px;
+    margin-top: -16px;
 }
 .container .caixa-form .formulario .oculto {
     display: none;
