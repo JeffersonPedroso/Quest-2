@@ -40,10 +40,10 @@ main {
 .container .caixa-form .formulario textarea  {
     border: 1px solid #0a0a0a;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
     height: 35px;
     width: 298px;
     color: #a8a8a8;
